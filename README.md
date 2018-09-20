@@ -1,2 +1,2 @@
 # Afram
-Collaborate and develop the website for the group.
+A Platform hire and showcase African's software Engineers and Developers
