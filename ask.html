@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.afram.com/ask-page</title>
+	<link rel="stylesheet" type="text/css" href="ask-style.css">
+</head>
+<body>
+	<nav></nav>
+
+<!-- "main-ask"  is the main div of the whole page that everything will go inside this div box-->
+
+<div id="main-ask">
+
+	 <!--this is the search form-->
+        <div id="search-form">
+        	<form>
+               <input type="text" name="search-item" placeholder="search a question">
+                <button type="submit">Ask</button>
+        	</form>
+        	
+        </div><!-- search form ends here-->
+
+     <div id="latest"><h2>Latest</h2></div> 
+     
+   <!-- below is the question main box(div) which is going to have the question, user icon and time the question was asked -->
+
+ <div id="main-question-box">
+   	<div class="top-bar"><!-- this contains user and question info-->
+   		<div class="user-icon"><img src="img/user3.png"></div>
+   		<div class="question-info"><p>Joseph alibariki osumu</p><p>12 september 2018</p></div>
+
+   	</div><!-- top bar ends here-->
+   	<div id="actual-question">
+   		<p>How to learn java using my smartphone and books?
+   			 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   			proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+<!-- this hidden input contains question ID which is going to be used for jquery when fetching the related replies-->
+<input id="more" type="text" name="">
+   		.</p>
+   	</div><!-- actual question ends here-->
+
+   	<div id="bottom-bar"><!-- this have like button,reply form-->
+   		<div id="comment-button">
+   			<form>
+
+   				<button>122<img src="img/comment.png" width="27" height="27"></button>
+   			</form> 
+   		</div><!-- comment-button ends here-->
+   		
+   		<div id="add-answer">
+   			<form method="" action="extra.php">
+   				<textarea placeholder="Add answer"></textarea>
+
+   		</div><!-- add answer form ends here-->
+   		<div id="send-button">
+   			<button type="submit" name="
+   			">send</button>
+   		</div>
+
+   	</form>
+   		
+   	</div><!-- bottom bar ends here-->
+</div><!-- question box ends here-->
+
+<div id="reply-line"><!-- this shows the connection btn question and answers-->
+ <div id="little"></div>
+	
+</div><!-- REPLY LINE ENDS HERER-->
+
+<!-- this is answers down replies boxes -->
+     
+     <div id="answer-box">
+     	<div class="answer-top-bar">
+     		<div class="user-icon"><img src="img/user3.png"></div>
+     		<div class="user-name"><p>joseph doe&emsp;|&emsp;18 Febuary 2018</p></div>
+     		
+     	</div><!-- answerTopBar Ends-->
+
+     	   <div id="actual-reply">
+     	   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     	   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     	   	</p>
+     	   	
+     	   </div><!--actual reply div ends here-->
+
+    <div class="answer-bottom-bar">
+    
+    	<div class="like">
+    		<form>
+    			<input type="text" name="commentiID">
+    		<button><img src="img/like1.png"></button>
+    	</div><!--likeENDSHERE-->
+    	<div class="number"><p>200</p></div>
+    	
+    	<div class="dislike">
+    		<form>
+    			<input type="text" name="commentiID">
+    		<button><img src="img/dislike.png"></button>
+    	</div>
+    	<div id="number2"><p>12</p></div>
+    	
+    </div> <!-- answerBOTTOMBar Ends-->   
+     	
+     </div><!-- answerBox ends here-->
+
+      <!-- this is just a line to show connection btn answers-->
+     <div id="line2"></div>
+
+     <div id="answer-box">
+     	<div class="answer-top-bar">
+     		<div class="user-icon"><img src="img/user3.png"></div>
+     		<div class="user-name"><p>joseph doe&emsp;|&emsp;18 Febuary 2018</p></div>
+     		
+     	</div><!-- answerTopBar Ends-->
+
+     	   <div id="actual-reply">
+     	   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+     	   	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+     	   	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     	   	</p>
+     	   	
+     	   </div><!--actual reply div ends here-->
+
+    <div class="answer-bottom-bar">
+    
+    	<div class="like">
+    		<form>
+    			<input type="text" name="commentiID">
+    		<button><img src="img/like1.png"></button>
+    	</div><!--likeENDSHERE-->
+    	<div class="number"><p>200</p></div>
+    	
+    	<div class="dislike">
+    		<form>
+    			<input type="text" name="commentiID">
+    		<button><img src="img/dislike.png"></button>
+    	</div>
+    	<div id="number2"><p>12</p></div>
+    	
+    </div> <!-- answerBOTTOMBar Ends-->   
+     	
+     </div><!-- answerBox ends here-->
+
+    
+
+     <div id="main-question-box">
+   	<div class="top-bar"><!-- this contains user and question info-->
+   		<div class="user-icon"><img src="img/user3.png"></div>
+   		<div class="question-info"><p>Joseph alibariki osumu</p><p>12 september 2018</p></div>
+
+   	</div><!-- top bar ends here-->
+   	<div id="actual-question">
+   		<p>How to learn java using my smartphone and books?
+   			 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	</div><!-- actual question ends here-->
+
+   	<div id="bottom-bar"><!-- this have like button,reply form-->
+   		<div id="comment-button">
+   			<form>
+   				<button>122<img src="img/comment.png" width="27" height="27"></button>
+   			</form> 
+   		</div><!-- comment-button ends here-->
+   		
+   		<div id="add-answer">
+   			<form method="" action="extra.php">
+   				<textarea placeholder="Add answer"></textarea>
+
+   		</div><!-- add answer form ends here-->
+   		<div id="send-button">
+   			<button type="submit" name="
+   			">send</button>
+   		</div>
+
+   	</form>
+   		
+   	</div><!-- bottom bar ends here-->
+</div><!-- question box ends here-->
+<br><br>
+
+
+	
+
+	
+</div><!-- main-ask div ends here-->
+
+
+
+</body>
+</html>
